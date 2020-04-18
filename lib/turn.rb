@@ -36,7 +36,6 @@ def display_board(board)
     user_input = gets.strip
     index = input_to_index(user_input)
     if valid_move?(board, index)
-      return display_board(board)
     else
     turn(board)
   end
