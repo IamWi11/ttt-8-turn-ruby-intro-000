@@ -31,7 +31,7 @@ def display_board(board)
     end
   end
 
-require 'pry'
+
 
   def turn(board)
     puts "Please enter 1-9:"
@@ -42,4 +42,3 @@ require 'pry'
     turn(board)
   end
 end
-binding.pry
