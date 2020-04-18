@@ -42,4 +42,4 @@ require 'pry'
     turn(board)
   end
 end
-binding.binding.pry
+binding.pry
