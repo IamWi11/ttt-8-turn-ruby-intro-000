@@ -39,6 +39,7 @@ require 'pry'
     index = input_to_index(user_input)
     if valid_move?(board, index)
     end
+    eslif turn(board)
   end
 end
 binding.binding.pry
