@@ -31,6 +31,8 @@ def display_board(board)
     end
   end
 
+require 'pry'
+
   def turn(board)
     puts "Please enter 1-9:"
     user_input = gets.strip
@@ -38,3 +40,5 @@ def display_board(board)
     if valid_move?(board, index)
     end
   end
+
+binding.binding.pry
