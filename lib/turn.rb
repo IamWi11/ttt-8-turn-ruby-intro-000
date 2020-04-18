@@ -40,5 +40,4 @@ require 'pry'
     if valid_move?(board, index)
     end
   end
-
 binding.binding.pry
